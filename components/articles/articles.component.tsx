@@ -54,7 +54,7 @@ export const Articles: React.FC = () => {
           </h1>
           <div className="flex flex-col items-center md:flex-row md:items-stretch">
             {contents.map((props) => (
-              <Card {...props} />
+              <Card {...props} key={props.title} />
             ))}
           </div>
         </div>

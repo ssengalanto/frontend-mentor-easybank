@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Banner, Layout, Services, Articles } from '../components';
+import { Header, Banner, Layout, Services, Articles, Footer } from '../components';
 
 const Home: React.FC = () => (
   <Layout>
@@ -7,6 +7,7 @@ const Home: React.FC = () => (
     <Banner />
     <Services />
     <Articles />
+    <Footer />
   </Layout>
 );
 

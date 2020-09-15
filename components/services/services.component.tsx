@@ -48,16 +48,14 @@ export const Services: React.FC = () => {
         </div>
         <div className="flex flex-col md:flex-row">
           {contents.map(({ title, content, src }) => (
-            <div className={`${styles.services}`}>
+            <div className={`${styles.services}`} key={title}>
               <div className="flex justify-center md:justify-start">
                 <img src={src} alt={title} />
               </div>
               <p className="text-xl text-secondary capitalize font-medium my-5 text-center md:text-left">
                 {title}
               </p>
-              <p className="text-sm text-tertiary   text-center md:text-left">
-                {content}
-              </p>
+              <p className="text-sm text-tertiary   text-center md:text-left">{content}</p>
             </div>
           ))}
         </div>
