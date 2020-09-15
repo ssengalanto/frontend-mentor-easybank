@@ -1,12 +1,9 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "baseUrl": "src",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "baseUrl": ".",
+
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -26,15 +23,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "paths": {
+      "@public/*": ["public/*"],
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"]
+    },
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "commitlint.config.js"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "commitlint.config.js"],
+  "exclude": ["node_modules"]
 }
