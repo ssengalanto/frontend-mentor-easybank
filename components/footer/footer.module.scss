@@ -1,0 +1,7 @@
+.social {
+  img {
+    &:not(:last-child) {
+      padding-right: 10px;
+    }
+  }
+}

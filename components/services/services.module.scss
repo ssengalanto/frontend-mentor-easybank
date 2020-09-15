@@ -1,0 +1,14 @@
+.services {
+  &:not(:last-child) {
+    padding-bottom: 30px;
+
+    @media (min-width: 768px) {
+      padding-bottom: 0;
+      margin-right: 40px;
+    }
+
+    @media (min-width: 1366px) {
+      margin-right: 100px;
+    }
+  }
+}
