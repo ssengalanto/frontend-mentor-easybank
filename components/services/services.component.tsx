@@ -55,7 +55,7 @@ export const Services: React.FC = () => {
               <p className="text-xl text-secondary capitalize font-medium my-5 text-center md:text-left">
                 {title}
               </p>
-              <p className="text-sm text-tertiary font-secondary text-center md:text-left">
+              <p className="text-sm text-tertiary   text-center md:text-left">
                 {content}
               </p>
             </div>

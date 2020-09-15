@@ -69,7 +69,7 @@ const Card: React.FC<Article> = ({ author, content, src, title }) => (
     <div className="p-6">
       <span className="text-xs text-tertiary">By {author}</span>
       <h2 className="text-secondary font-medium text-sm my-2">{title}</h2>
-      <p className="text-tertiary font-secondary text-xs">{content}</p>
+      <p className="text-tertiary   text-xs">{content}</p>
     </div>
   </div>
 );

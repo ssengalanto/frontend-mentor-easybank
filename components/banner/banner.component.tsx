@@ -25,7 +25,7 @@ const SloganMobile: React.FC = () => (
     <p className="font-semibold text-4xl text-secondary text-center">
       Next generation digital banking
     </p>
-    <p className="block mt-4 text-center text-tertiary text-base font-secondary">
+    <p className="block mt-4 text-center text-tertiary text-base  ">
       Take your financial life online. Your Easybank account will be a one-stop-shop for spending,
       saving, budgeting, investing, and much more.
     </p>
@@ -41,7 +41,7 @@ const SloganDesktop: React.FC = () => (
       <p className="font-semibold text-4xl md:text-5xl text-secondary text-center md:text-left">
         Next generation digital banking
       </p>
-      <p className="block md:pr-2 xl:pr-24 mt-4 text-center md:text-left text-tertiary text-base font-secondary">
+      <p className="block md:pr-2 xl:pr-24 mt-4 text-center md:text-left text-tertiary text-base  ">
         Take your financial life online. Your Easybank account will be a one-stop-shop for spending,
         saving, budgeting, investing, and much more.
       </p>
