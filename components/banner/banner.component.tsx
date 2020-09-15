@@ -36,7 +36,7 @@ const SloganMobile: React.FC = () => (
 );
 
 const SloganDesktop: React.FC = () => (
-  <div className={`${styles.slogan} md:mt-24 p-5 hidden md:flex flex-col md:order-1`}>
+  <div className={`${styles.slogan} md:mt-16 p-5 hidden md:flex flex-col md:order-1`}>
     <div>
       <p className="font-semibold text-4xl md:text-5xl text-secondary text-center md:text-left">
         Next generation digital banking
