@@ -2,7 +2,11 @@
   "compilerOptions": {
     "target": "es5",
     "baseUrl": "src",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -22,12 +26,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "preserve"
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", "commitlint.config.js"
+    "**/*.tsx",
+    "commitlint.config.js"
   ],
   "exclude": [
     "node_modules"
