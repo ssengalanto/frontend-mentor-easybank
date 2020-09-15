@@ -18,7 +18,7 @@ export const Footer: React.FC = () => (
       <MenuDesktop />
       <div>
         <div className="flex justify-center">
-          <Button className="mb-8">Request Invite</Button>
+          <Button className="mb-6">Request Invite</Button>
         </div>
         <p className="text-sm text-gray-600 text-center">© Easybank. All Rights Reserved</p>
       </div>
