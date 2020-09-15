@@ -1,0 +1,20 @@
+.card {
+  max-width: 250px;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+      margin-right: 40px;
+    }
+
+    @media (min-width: 1366px) {
+      margin-right: 100px;
+    }
+  }
+}
+
+.img {
+  height: 150px;
+}

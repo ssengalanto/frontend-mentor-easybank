@@ -9,7 +9,7 @@ export const Banner: React.FC = () => (
     <div
       className={`${styles.bg} bg-right-top bg-no-repeat bg-cover md:bg-contain w-screen`}
     >
-      <div className="container mx-auto flex flex-col md:flex-row items-center">
+      <div className="container mx-auto flex h-full flex-col md:flex-row md:items-center">
         <div className="md:order-2">
           <img className={styles.img} src="/images/image-mockups.png" alt="phones" />
         </div>
@@ -36,7 +36,7 @@ const SloganMobile: React.FC = () => (
 );
 
 const SloganDesktop: React.FC = () => (
-  <div className={`${styles.slogan} md:mt-16 p-5 hidden md:flex flex-col md:order-1`}>
+  <div className={`${styles.slogan} p-5 hidden md:flex flex-col md:order-1`}>
     <div>
       <p className="font-semibold text-4xl md:text-5xl text-secondary text-center md:text-left">
         Next generation digital banking

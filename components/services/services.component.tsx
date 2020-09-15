@@ -36,11 +36,11 @@ export const Services: React.FC = () => {
 
   return (
     <div className="bg-gray-100 w-screen h-full">
-      <div className="container mx-auto px-5 md:px-10 py-16 flex flex-col">
+      <div className="container mx-auto px-10 py-16 flex flex-col">
         <div className="mb-12">
-          <h1 className="text-4xl text-secondary block mb-4 text-center md:text-left">
+          <h2 className="text-4xl text-secondary block mb-4 text-center md:text-left">
             Why choose Easybank?
-          </h1>
+          </h2>
           <p className="text-tertiary leading-8 text-center md:text-left">
             We leverage Open Banking to turn your bank account into your financial hub. <br />
             Control your finances like never before.
