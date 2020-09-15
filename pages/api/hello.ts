@@ -4,5 +4,6 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 export default (req: NextApiRequest, res: NextApiResponse): void => {
   res.statusCode = 200;
+  console.log(req);
   res.json({ name: 'John Doe' });
 };
