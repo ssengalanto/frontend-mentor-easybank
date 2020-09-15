@@ -1,6 +1,11 @@
 import React from 'react';
-import { Header } from '../components';
+import { Header, Banner, Layout } from '../components';
 
-const Home: React.FC = () => <Header />;
+const Home: React.FC = () => (
+  <Layout>
+    <Header />
+    <Banner />
+  </Layout>
+);
 
 export default Home;

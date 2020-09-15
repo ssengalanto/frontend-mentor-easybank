@@ -1,3 +1,5 @@
 import React from 'react';
 
-export const Layout: React.FC = () => <div></div>;
+export const Layout: React.FC = ({ children }) => (
+  <div className="min-h-screen min-w-full flex flex-col items-center">{children}</div>
+);

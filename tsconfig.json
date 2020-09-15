@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "es5",
     "baseUrl": ".",
-
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "noImplicitAny": true,
@@ -24,11 +23,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "paths": {
-      "@public/*": ["public/*"],
-      "@components/*": ["components/*"],
-      "@pages/*": ["pages/*"]
-    },
   },
 
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "commitlint.config.js"],
